@@ -3,17 +3,21 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 宁静致远
+subtitle: '韩毅的个人博客'
+description: '韩毅的个人技术博客'
 keywords:
-author: John Doe
-language: zh-tw
-timezone: ''
+author: 韩毅
+language: 
+  - zh-CN
+  - zh-Hans
+  - zh-tw
+  - en
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://blog.hanyi.online
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -93,7 +97,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
