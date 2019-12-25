@@ -4,4 +4,4 @@
 
 layout: home
 ---
-# show some thing
+# show some thing.
