@@ -168,6 +168,165 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.hanyi.online/2019/12/25/how-to-add-Excerpt-with-hexo/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="韩毅">
+      <meta itemprop="description" content="韩毅的个人技术博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="宁静致远">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/12/25/how-to-add-Excerpt-with-hexo/" class="post-title-link" itemprop="url">如何在hexo中设置摘要</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2019-12-26 01:05:04 / 修改时间：01:42:04" itemprop="dateCreated datePublished" datetime="2019-12-26T01:05:04+08:00">2019-12-26</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>在 hexo 4.2 中提供了三种方式来为文章设置摘要<br>文章头部添加适合用于对文章进行归纳总结，<code>more</code>标签适用于直接摘取原文</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2019/12/25/how-to-add-Excerpt-with-hexo/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.hanyi.online/2019/12/25/how-to-setting-custom-domain-on-travis-ci/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="韩毅">
+      <meta itemprop="description" content="韩毅的个人技术博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="宁静致远">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/12/25/how-to-setting-custom-domain-on-travis-ci/" class="post-title-link" itemprop="url">如何在travis ci自动部署时设置自定义域名</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2019-12-26 00:26:50 / 修改时间：01:42:04" itemprop="dateCreated datePublished" datetime="2019-12-26T00:26:50+08:00">2019-12-26</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%8A%80%E6%9C%AF/travis-ci/" itemprop="url" rel="index">
+                    <span itemprop="name">travis ci</span>
+                  </a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%8A%80%E6%9C%AF/travis-ci/github-pages/" itemprop="url" rel="index">
+                    <span itemprop="name">github pages</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>在Travis CI部署Github pages时，默认是不会生成自定义域名的，每次都需要去Github的setting里重新设置一下。如果需要在部署时自动配置好自定义域名，可以在 .travis.yml的deploy内添加</p>
+<figure class="highlight yml"><figcaption><span>.travis.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">...</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">fqdn:</span> <span class="string">[你的域名]</span></span><br><span class="line"><span class="string">...</span></span><br></pre></td></tr></table></figure>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://blog.hanyi.online/2019/12/18/facial-recognition-on-china-overview/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -199,7 +358,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-12-26 00:22:54" itemprop="dateModified" datetime="2019-12-26T00:22:54+08:00">2019-12-26</time>
+                <time title="修改时间：2019-12-26 01:42:04" itemprop="dateModified" datetime="2019-12-26T01:42:04+08:00">2019-12-26</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -224,393 +383,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><ul>
-<li>人脸识别的收费政策，每厂商会根据情况不定期调整，以下情况以2019年12月公布的信息为准。</li>
-<li>在并发需求不是特别重要的场景下，如每天查询8万次，各厂商收费的情况如下</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>厂商</th>
-<th>收费</th>
-<th>最大QPS</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>百度</td>
-<td>免费</td>
-<td>10QPS</td>
-</tr>
-<tr>
-<td>旷视</td>
-<td>免费</td>
-<td>6QPS</td>
-</tr>
-<tr>
-<td>腾讯</td>
-<td>24元</td>
-<td>10QPS</td>
-</tr>
-<tr>
-<td>阿里</td>
-<td>10元</td>
-<td>1QPS</td>
-</tr>
-<tr>
-<td>云从</td>
-<td>80元</td>
-<td>20QPS</td>
-</tr>
-</tbody></table>
-<ul>
-<li>最大化可利用的免费额度  </li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>厂商</th>
-<th>免费额度</th>
-<th>QPS限制</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>百度</td>
-<td>86万次/天</td>
-<td>10QPS</td>
-</tr>
-<tr>
-<td>旷视</td>
-<td>51万次/天</td>
-<td>6QPS</td>
-</tr>
-<tr>
-<td>腾讯</td>
-<td>1万次/月</td>
-<td>10QPS</td>
-</tr>
-<tr>
-<td>阿里云</td>
-<td>/</td>
-<td>/</td>
-</tr>
-<tr>
-<td>云从</td>
-<td>/</td>
-<td>/</td>
-</tr>
-</tbody></table>
-<ul>
-<li>QPS计费更适合并发要求高的需求。</li>
-<li>各家人脸识别引擎不同，所以识别率会有差别。</li>
-<li>以目前的收费情况，百度人脸有绝对的成本优势，在轻度使用中基本可以做到免费使用。</li>
-</ul>
-<h2 id="优化建议"><a href="#优化建议" class="headerlink" title="优化建议"></a>优化建议</h2><ul>
-<li>优化人员库：<br>为人员进行分组，每次查找只在人员可能出现的组中进行查找，以减少需要检索的人脸数量</li>
-<li>优化做为基准的照片：<br>提高做为识别基准的照片数量，建议每人采集3张，后台把三张照片合并，做为同一个人员来处理，以提高<br>以识别成功率。<br>采集时提供多样性样本，如人脸角度，刘海遮挡等。</li>
-<li>代码优化降低并发数量：<br>APP 端分批提交，例如需要上传30张，可分3秒提交上传，每秒上传10张，这样QPS就从30降低到了10。<br>增加超并发重发机制，对单张上传进行判断，如遇到超并发错误，则延后重发。<br>后台代码建立进程池，先进先出，以控制流量。</li>
-</ul>
-<h2 id="术语解释"><a href="#术语解释" class="headerlink" title="术语解释"></a>术语解释</h2><ul>
-<li>QPS(Queries per second)<br>Queries per second is a common measure of the amount of search traffic an information retrieval system, such as a search engine or a database, receives during one second. The term is used more broadly for any request–response system, more correctly called requests per second.</li>
-<li>1：N搜索<br>将一张人脸图片在人脸库的中进行搜索，返回最相似的一张或多张人脸及对应相似度</li>
-<li>M：N 搜索<br>如果一张图片中存在 M 张人脸，支持一次性在人脸库中搜索全部人脸，并返回每个人脸对应的用户和相似度</li>
-<li>1：N 对比<br>支持用一张人脸图片，与某一指定用户在人脸库中的多张照片进行对比，返回与该用户的相似度分值</li>
-<li>人脸库管理<br>提供人脸注册、更新、删除、用户信息查询等11个接口能力，支持百万级人脸库管理，并提供人脸库可视化全层级管理界面</li>
-<li>图片质量检测<br>实时校验人脸的姿态角度、遮挡度、清晰度、光照条件，确保输出的图片符合质量标准</li>
-<li>在线图片活体检测<br>基于单张图片中人像的破绽（摩尔纹、成像畸形等），判断图片是否为二次翻拍，增加人脸注册的安全性和真实性</li>
-</ul>
-<h2 id="各公司对比"><a href="#各公司对比" class="headerlink" title="各公司对比"></a>各公司对比</h2><h3 id="百度"><a href="#百度" class="headerlink" title="百度"></a>百度</h3><h4 id="特色优势"><a href="#特色优势" class="headerlink" title="特色优势"></a>特色优势</h4><ul>
-<li>百万级人脸库：支持百万级规模的人脸库管理和搜索，检索速度业内领先，可应对各种业务需求<br>人脸识别基础在线服务主要有：人脸检测（含属性识别）、人脸对比、人脸搜索、人脸库管理、在线活体检测。其中人脸库管理服务由多个子接口构成。</li>
-<li>可视化管理：<br>提供可视化人脸库管理功能，支持人脸组、用户、人脸维度的增、删、改、查操作</li>
-<li>高精度稳定服务：<br>万级别人脸库首选识别率高达99%以上，付费用户享受全年服务4个9的 SLA保障，客服响应7*24小时<h4 id="收费"><a href="#收费" class="headerlink" title="收费"></a>收费</h4><h5 id="免费额度"><a href="#免费额度" class="headerlink" title="免费额度"></a>免费额度</h5></li>
-<li>调用量免费： 人脸识别下基础在线API接口调用量免费，无需支付费用即可无限制调用。</li>
-<li>按QPS计费： 免费QPS默认为2，如果您通过百度云的企业认证，基础在线API接口的免费QPS将扩充至10。同时您可以根据业务需求随时购买扩充QPS，QPS可包月购买，也可按天单独购买，灵活多样，适应多场景需求。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">免费额度说明：</span><br><span class="line">如果账号完成企业认证基础服务API并发支持永久赠送 10QPS，折算成实际业务调用次数，相当于：</span><br><span class="line">每天：最高免费享用 10QPS 24h 3600s &#x3D; 864000次 有效调用</span><br><span class="line">每年：最高免费享用 864000次&#x2F;天 * 365天 &#x3D; 315360000次 有效调用。</span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<h5 id="计费"><a href="#计费" class="headerlink" title="计费"></a>计费</h5><table>
-<thead>
-<tr>
-<th>购买 QPS 数量</th>
-<th>按月购买</th>
-<th>按天购买</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>0&lt;QPS&lt;=10</td>
-<td>300元/月/QPS</td>
-<td>30元/天/QPS</td>
-</tr>
-<tr>
-<td>10&lt;QPS&lt;=50</td>
-<td>250元/月/QPS</td>
-<td>25元/天/QPS</td>
-</tr>
-<tr>
-<td>50&lt;QPS&lt;=100</td>
-<td>200元/月/QPS</td>
-<td>20元/天/QPS</td>
-</tr>
-<tr>
-<td>100&lt;QPS</td>
-<td>150元/月/QPS</td>
-<td>15元/天/QPS</td>
-</tr>
-</tbody></table>
-<h3 id="腾讯"><a href="#腾讯" class="headerlink" title="腾讯"></a>腾讯</h3><h4 id="特色优势-1"><a href="#特色优势-1" class="headerlink" title="特色优势"></a>特色优势</h4><ul>
-<li><p>精准识别<br>腾讯云人脸识别服务在多个国际公开竞赛中刷新纪录，人脸比对在2017年的 LFW 测评中准确度高达99.80%；人脸搜索在 MegaFace 竞赛百万规模中首选识别率达83.29%。</p>
-</li>
-<li><p>稳定可靠<br>腾讯云人脸识别服务已经通过腾讯内部产品海量用户和复杂场景验证，运行稳定、鲁棒（Robust）性强，服务可用性可达99.9%。</p>
-</li>
-<li><p>算法领先<br>基于第三代腾讯优图祖母模型，融合度量学习、迁移学习、多任务学习等多种训练手段来优化模型；针对不同场景业务的特点，定制化 finetuning 或 distilling 模型，满足业务性能与时延的双重需求。</p>
-</li>
-<li><p>简单易用<br>除了可直接调用的全面的 API 接口，人脸识别还提供了丰富多样的离线 SDK 帮助快速植入硬件设备，服务简单易用，兼容性强。</p>
-<ul>
-<li>用途广泛<br>广泛应用于刷脸门禁考勤、安防监控、VIP 识别、人脸签到、人脸支付和人脸登录等众多场景。</li>
-</ul>
-</li>
-<li><p>实时响应<br>人脸识别具备高并发、高吞吐、低时延等特点，即使是百万规模人脸搜索，仍只需数百毫秒即可处理完毕，满足您的实时使用需求。</p>
-</li>
-</ul>
-<h4 id="收费-1"><a href="#收费-1" class="headerlink" title="收费"></a>收费</h4><h5 id="免费额度-1"><a href="#免费额度-1" class="headerlink" title="免费额度"></a>免费额度</h5><ul>
-<li>调用量计费： 所有开通腾讯云人脸识别服务的客户，每月每种服务均有10000次的免费调用额度，以资源包的形式发放到您的腾讯云账号中，优先扣除。</li>
-<li>QPS免费： 免费QPS，限制10QPS,可付费升级210元/日/活动/10QPS</li>
-</ul>
-<h5 id="计费-1"><a href="#计费-1" class="headerlink" title="计费"></a>计费</h5><p>预付费<br>预付费当前不支持退款和剩余次数冻结。</p>
-<table>
-<thead>
-<tr>
-<th>资源包规格</th>
-<th>100万次</th>
-<th>1000万次</th>
-<th>5000万次</th>
-<th>1亿次</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>人脸搜索</td>
-<td>3100元</td>
-<td>30400元</td>
-<td>142500元</td>
-<td>255000元</td>
-</tr>
-<tr>
-<td>人员库管理</td>
-<td>3100元</td>
-<td>30400元</td>
-<td>142500元</td>
-<td>255000元</td>
-</tr>
-<tr>
-<td>后付费</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>月接口调用总量</td>
-<td>0 &lt; 调用量 ≤ 300万</td>
-<td>300万＜调用量 ≤ 1500万</td>
-<td>调用量 &gt; 1500万</td>
-<td></td>
-</tr>
-<tr>
-<td>————–</td>
-<td>——————</td>
-<td>———————-</td>
-<td>—————</td>
-<td></td>
-</tr>
-<tr>
-<td>人脸搜索</td>
-<td>0.0032元/次</td>
-<td>0.003元/次</td>
-<td>0.0027元/次</td>
-<td></td>
-</tr>
-<tr>
-<td>人员库管理</td>
-<td>0.0032元/次</td>
-<td>0.003元/次</td>
-<td>0.0027元/次</td>
-<td></td>
-</tr>
-</tbody></table>
-<h3 id="阿里云"><a href="#阿里云" class="headerlink" title="阿里云"></a>阿里云</h3><h4 id="特色优势-2"><a href="#特色优势-2" class="headerlink" title="特色优势"></a>特色优势</h4><ul>
-<li>识别精准度高<br>人脸检测识别等算法精度处于业内领先水平</li>
-<li>识别效率高<br>支持实时识别</li>
-<li>服务定制化<br>服务与SDK相结合，根据客户需求快速定制开发</li>
-<li>一站式解决方案<br>背靠阿里云可与其他产品合力打造一站式解决方案</li>
-<li>生态平台<br>和电商、搜索等紧密结合，打造有阿里特色的视觉<h4 id="收费-2"><a href="#收费-2" class="headerlink" title="收费"></a>收费</h4><h5 id="免费额度-2"><a href="#免费额度-2" class="headerlink" title="免费额度"></a>免费额度</h5>无<h5 id="计费-2"><a href="#计费-2" class="headerlink" title="计费"></a>计费</h5></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>购买 QPS 数量</th>
-<th>按月购买</th>
-<th>按天购买</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>0&lt;QPS&lt;=10</td>
-<td>300元/月/QPS</td>
-<td>20元/天/QPS</td>
-</tr>
-<tr>
-<td>10&lt;QPS&lt;=50</td>
-<td>240元/月/QPS</td>
-<td>16元/天/QPS</td>
-</tr>
-<tr>
-<td>50&lt;QPS&lt;=100</td>
-<td>180元/月/QPS</td>
-<td>12元/天/QPS</td>
-</tr>
-</tbody></table>
-<h3 id="Face-旷视"><a href="#Face-旷视" class="headerlink" title="Face++ 旷视"></a>Face++ 旷视</h3><h4 id="特色优势-3"><a href="#特色优势-3" class="headerlink" title="特色优势"></a>特色优势</h4><ul>
-<li>毫秒级响应速度</li>
-<li>场景优化方案</li>
-<li>与人脸集存储完美搭配</li>
-</ul>
-<h4 id="收费-3"><a href="#收费-3" class="headerlink" title="收费"></a>收费</h4><h5 id="免费额度-3"><a href="#免费额度-3" class="headerlink" title="免费额度"></a>免费额度</h5><ul>
-<li>注册账号即可享受API服务永久免费使用，不限总调用量，与其他用户共享免费QPS池</li>
-<li>免费 QPS: 3（单月内连续调用十天或调用量超过1万的用户即可获得人脸识别API QPS翻倍至6）人脸稠密关键点识别单独为1</li>
-</ul>
-<h5 id="计费-3"><a href="#计费-3" class="headerlink" title="计费"></a>计费</h5><ul>
-<li>预付费<br>按量计费<br>收费项包括API调用和API调用失败。开通企业认证后20QPS。  </li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>API</th>
-<th>调用费用（元／次）</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>人脸搜索</td>
-<td>0.01</td>
-</tr>
-<tr>
-<td>400调用失败</td>
-<td>0.0005</td>
-</tr>
-<tr>
-<td>412调用失败</td>
-<td>0.001</td>
-</tr>
-</tbody></table>
-<ul>
-<li>包时计费</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>购买 QPS 数量</th>
-<th>按月购买</th>
-<th>按天购买</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>单个QPS</td>
-<td>1000元/月/QPS</td>
-<td>100元/天/QPS</td>
-</tr>
-</tbody></table>
-<h3 id="云从科技"><a href="#云从科技" class="headerlink" title="云从科技"></a>云从科技</h3><h4 id="特色优势-4"><a href="#特色优势-4" class="headerlink" title="特色优势"></a>特色优势</h4><ul>
-<li>准确<br>全球领先的深度学习算法，并在实际应用过程中不断优化，得到银行、政府等多行业的应用认可</li>
-<li>高效<br>支持毫秒级的识别响应能力、弹性灵活的高并发承载及99.99%的可靠性保障</li>
-<li>创新<br>在各行业不断进行创新，在准确高效的基础上，不断开发出各行业的创新场景应用</li>
-</ul>
-<h4 id="收费-4"><a href="#收费-4" class="headerlink" title="收费"></a>收费</h4><h5 id="免费额度-4"><a href="#免费额度-4" class="headerlink" title="免费额度"></a>免费额度</h5><p>无</p>
-<h5 id="计费-4"><a href="#计费-4" class="headerlink" title="计费"></a>计费</h5><ul>
-<li>预付费 按量计费 收费项包括API调用 QPS限制为20QPS</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>API</th>
-<th>调用费用（元／次）</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>人脸搜索</td>
-<td>0.01</td>
-</tr>
-</tbody></table>
-<h2 id="离线识别-SDK"><a href="#离线识别-SDK" class="headerlink" title="离线识别 SDK"></a>离线识别 SDK</h2><p>离线识别 SDK根据设备授权数量收取费用，<br>按累计阶梯计费，随着购买数量的增加，<br>授权单价将会降低。购买授权并激活后，<br>即可下载授权文件，永久有效。<br>典型场景及设备类型</p>
-<p>人脸门禁<br>人脸闸机<br>人证核验机<br>自助柜机<br>人脸考勤机<br>会场签到</p>
-<h3 id="百度-1"><a href="#百度-1" class="headerlink" title="百度"></a>百度</h3><table>
-<thead>
-<tr>
-<th>累计购买授权数</th>
-<th>每个授权单价</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>第1-1000个</td>
-<td>299元/个</td>
-</tr>
-<tr>
-<td>第1001-5000个</td>
-<td>249元/个</td>
-</tr>
-<tr>
-<td>第5001个及以上</td>
-<td>199元/个</td>
-</tr>
-</tbody></table>
-<h3 id="腾讯-1"><a href="#腾讯-1" class="headerlink" title="腾讯"></a>腾讯</h3><table>
-<thead>
-<tr>
-<th>累计购买授权数</th>
-<th>每个授权单价</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>第50-1000个</td>
-<td>358元/个</td>
-</tr>
-<tr>
-<td>第1001-5000个</td>
-<td>308元/个</td>
-</tr>
-<tr>
-<td>第5001个及以上</td>
-<td>258元/个</td>
-</tr>
-</tbody></table>
-<h3 id="FACE-旷视"><a href="#FACE-旷视" class="headerlink" title="FACE++ 旷视"></a>FACE++ 旷视</h3><p>需要商务洽谈</p>
-<h2 id="人脸私有化部署"><a href="#人脸私有化部署" class="headerlink" title="人脸私有化部署"></a>人脸私有化部署</h2><p>人脸私有化部署包根据设备授权数量收取费用，购买授权后，即可下载安装部署包，永久有效。</p>
-<p>授权数量和您的显卡数量有关，您需要多少GPU显卡，则购买/申请多少授权</p>
-<h3 id="百度-2"><a href="#百度-2" class="headerlink" title="百度"></a>百度</h3><table>
-<thead>
-<tr>
-<th>性能规格</th>
-<th>支持并发量</th>
-<th>支持显卡类型</th>
-<th>价格</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>基础版</td>
-<td>20QPS</td>
-<td>P4/GTX：P4、P40、1060、1070、1070Ti、1080、1080Ti显卡、T4显卡、RTX：T4、2070、2080、2080Ti显卡</td>
-<td>3万/授权</td>
-</tr>
-<tr>
-<td>标准版</td>
-<td>50QPS</td>
-<td>P4/GTX：P4、P40、1060、1070、1070Ti、1080、1080Ti显卡、T4显卡、RTX：T4、2070、2080、2080Ti显卡</td>
-<td>5万/授权</td>
-</tr>
-<tr>
-<td>高性能版</td>
-<td>80QPS</td>
-<td>RTX：2070、2080、2080Ti</td>
-<td>8万/授权</td>
-</tr>
-</tbody></table>
-
+          人脸识别的收费政策，每厂商会根据情况不定期调整，以下情况以2019年12月公布的信息为准。
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2019/12/18/facial-recognition-on-china-overview/">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -660,7 +441,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-12-26 00:22:54" itemprop="dateModified" datetime="2019-12-26T00:22:54+08:00">2019-12-26</time>
+                <time title="修改时间：2019-12-26 01:42:04" itemprop="dateModified" datetime="2019-12-26T01:42:04+08:00">2019-12-26</time>
               </span>
 
           
@@ -678,16 +459,14 @@
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2013/07/13/hello-world/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -769,16 +548,16 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">分类</span>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-count">10</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
