@@ -1,6 +1,8 @@
 ---
 title: 如何在travis ci自动部署时设置自定义域名
-date: 2019-12-26 00:26:50
+date: 2019-12-16 00:26:50
+update: 2019-12-16 00:26:50
+
 tags:
  - travis ci
  - github pages

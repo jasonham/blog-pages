@@ -1,6 +1,7 @@
 ---
 title: 如何在hexo中设置摘要
-date: 2019-12-26 01:05:04
+date: 2019-12-15 01:05:04
+updated: 2019-12-15 01:05:04
 tags:
  - hexo
 category:
