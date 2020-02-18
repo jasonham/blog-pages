@@ -6,6 +6,8 @@ tags:
  - Django
 category:
  - 技术
+ description:
+ - 在django中的一对多关系里，默认存在着级联删除的属性。本文介绍了相关的属性设置。
 ---
 在django中的一对多关系里，默认存在着级联删除的属性。
 如果不想删除班级的同时员工表也被一起删除，需要在员工的班级外键上增加``` null=True, on_delete=models.SET_NULL```
