@@ -6,7 +6,7 @@ tags:
  - Django
 category:
  - 技术
- description:
+description:
  - 在django中的一对多关系里，默认存在着级联删除的属性。本文介绍了相关的属性设置。
 ---
 在django中的一对多关系里，默认存在着级联删除的属性。
